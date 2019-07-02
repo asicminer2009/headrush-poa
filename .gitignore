@@ -1,0 +1,49 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+.nyc_output
+logs/
+
+
+*.err
+*.out
+data
+
+# contracts build
+ui/src/contracts
+oracle/abis
+monitor/abis
+
+# compiled css
+*.css
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#deployment
+*.retry
+hosts.yml
+hosts
+*.log
+Vagrantfile
+vagrant-hosts.yml
+.vagrant
+
+#monitor
+monitor/responses/*
+!monitor/.gitkeep
